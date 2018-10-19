@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({
 
 
 app.get('/',function (req,res) {
-  //console.log("testing github");	
   res.sendFile(__dirname+'/index.html');
 });
 
